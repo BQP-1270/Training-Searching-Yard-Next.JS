@@ -1,9 +1,11 @@
 import React from 'react'
 
-function page() {
+const page = (params) => {
+
+    console.log(params)
   return (
     <div>
-    Home Page
+      return <div>Product</div>
     </div>
   )
 }
